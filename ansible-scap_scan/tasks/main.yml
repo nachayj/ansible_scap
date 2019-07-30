@@ -1,0 +1,6 @@
+---
+
+- name: run scap scan
+  args:
+     chdir: /opt/scc
+  command: ./cscc
